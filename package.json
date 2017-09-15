@@ -1,0 +1,11 @@
+{
+  "name": "twitterbot",
+  "version": "1.0.0",
+  "description": "A bot to remind google of something each 24hrs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yours Truly",
+  "license": "ISC"
+}

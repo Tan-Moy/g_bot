@@ -38,4 +38,5 @@ function tweet(){
 }
 console.log('Started!!!');
 console.log(T);
-//setInterval(tweet, 1000);
+setInterval(tweet, 12*60*60*1000);
+//tweet()

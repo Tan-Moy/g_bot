@@ -37,10 +37,10 @@ function tweet(){
     })
 }
 console.log('Started!!!');
-setInterval(tweet, 12*60*60*1000);
+//setInterval(tweet, 12*60*60*1000);
 //console.log(T);
 //tweet()
-// let i = 1;
-// setInterval(function(){
-//     console.log(i++);
-// },1000);
+let i = 1;
+setInterval(function(){
+    console.log(i++);
+},1000);

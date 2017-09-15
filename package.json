@@ -4,7 +4,7 @@
   "description": "A bot to remind google of something each 24hrs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "Yours Truly",
   "license": "ISC",

@@ -36,5 +36,5 @@ function tweet(){
       })
     })
 }
-//console.log('Started!!!')
-setInterval(tweet, 43200000);
+console.log('Started!!!')
+//setInterval(tweet, 43200000);

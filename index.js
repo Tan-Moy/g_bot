@@ -38,5 +38,5 @@ function tweet(){
 }
 console.log('Started!!!');
 //console.log(T);
-setInterval(tweet, 10*1000);
+setInterval(tweet, 60*1000);
 //tweet()

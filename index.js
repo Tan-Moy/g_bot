@@ -3,10 +3,10 @@ var fs = require('fs');
 
 
 var T = new Twit({
-  consumer_key:         '8BK5EephKAuGU0oGlJxXiMddZ',
-  consumer_secret:      'jXHuWPf3w2cOcYWVAgC63v0bXYTKIctQNuhZsu3BiKT3Bt8QNB',
-  access_token:         '2713973839-6sKivG2cxZSSOgPW5eOcY7ji1pgmGOHJrff20XB',
-  access_token_secret:  'kXO5z8eDdFVfLL7M1XdDzpif4yWaNRyJKfTAIyhmSapcf',
+  consumer_key:         process.env.consumer_key,
+  consumer_secret:      process.env.consumer_secret,
+  access_token:         process.env.access_token,
+  access_token_secret:  process.env.access_token_secret,
   timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests.
 })
 

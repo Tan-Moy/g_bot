@@ -40,7 +40,7 @@ console.log('Started!!!');
 //console.log(T);
 //setInterval(tweet, 60*1000);
 //tweet()
-
+let i = 1;
 setInterval(function(){
-    console.log(1);
+    console.log(i++);
 },1000);
